@@ -46,6 +46,12 @@
     "tickets_link": {
       "type": "string",
       "required": true
+    },
+    "event_category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::event-category.event-category",
+      "inversedBy": "events"
     }
   }
 }
