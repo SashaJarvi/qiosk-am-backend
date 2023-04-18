@@ -9,10 +9,10 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
     "@strapi/plugin-i18n": "4.9.0",
     "@strapi/plugin-users-permissions": "4.9.0",
+    "@strapi/provider-email-nodemailer": "^4.9.1",
     "@strapi/strapi": "4.9.0",
     "pg": "^8.10.0"
   },
