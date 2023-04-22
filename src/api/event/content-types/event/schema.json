@@ -52,6 +52,11 @@
       "relation": "manyToOne",
       "target": "api::event-category.event-category",
       "inversedBy": "events"
+    },
+    "short_description": {
+      "type": "text",
+      "required": true,
+      "maxLength": 350
     }
   }
 }
