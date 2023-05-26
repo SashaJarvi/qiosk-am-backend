@@ -35,7 +35,7 @@
     "max_price": {
       "type": "integer"
     },
-    "location": {
+    "location_name": {
       "type": "string",
       "required": true
     },
@@ -52,6 +52,10 @@
       "relation": "manyToOne",
       "target": "api::event-category.event-category",
       "inversedBy": "events"
+    },
+    "location_address": {
+      "type": "string",
+      "required": true
     },
     "short_description": {
       "type": "text",
