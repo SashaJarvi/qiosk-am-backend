@@ -29,7 +29,8 @@
     },
     "datetime": {
       "type": "datetime",
-      "required": true
+      "required": false,
+      "default": "2023-05-26T15:00:00.000Z"
     },
     "location_name": {
       "type": "string",
@@ -64,6 +65,9 @@
       "type": "text",
       "required": true,
       "maxLength": 350
+    },
+    "youtube_video": {
+      "type": "string"
     }
   }
 }
