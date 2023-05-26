@@ -12,7 +12,7 @@ module.exports = ({ env }) => ({
       },
       settings: {
         defaultFrom: 'no-reply@strapi.io',
-        defaultReplyTo: 'hello@example.com',
+        defaultReplyTo: env('SMTP_USERNAME'),
       },
     },
   },
