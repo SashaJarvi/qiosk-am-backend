@@ -7,7 +7,6 @@ export default ({ env }) => ({
       database: env('DATABASE_NAME'),
       user: env('DATABASE_USERNAME'),
       password: env('DATABASE_PASSWORD'),
-      timezone: "Asia/Yerevan",
       ssl: {
         rejectUnauthorized:env.bool('DATABASE_SSL_SELF', false),
       },
