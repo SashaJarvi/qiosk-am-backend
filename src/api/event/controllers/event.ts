@@ -12,6 +12,7 @@ export default factories.createCoreController('api::event.event', ({ strapi }) =
     await strapi.plugin('email').service('email').send({
       to: process.env.ADMIN_EMAIL,
       from: email,
+      replyTo: email,
       subject: 'Заявка с сайта qiosk.am',
       text: message,
       html: `
