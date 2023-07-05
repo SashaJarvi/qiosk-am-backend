@@ -1,0 +1,8 @@
+{
+  "errors": {
+    "enter-name": "Enter the name",
+    "enter-email": "Enter the email",
+    "enter-message": "Enter the message",
+    "error": "There is an error, try again"
+  }
+}
