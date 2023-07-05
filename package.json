@@ -15,6 +15,7 @@
     "@strapi/provider-email-nodemailer": "^4.9.1",
     "@strapi/provider-upload-cloudinary": "^4.10.6",
     "@strapi/strapi": "4.9.0",
+    "i18n": "^0.15.1",
     "pg": "^8.10.0"
   },
   "author": {
